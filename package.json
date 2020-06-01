@@ -1,0 +1,20 @@
+{
+  "name": "pokechatapp",
+  "version": "1.0.0",
+  "description": "A real time chat app which is inspired from Discord App with a Pokemon Theme",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Harsh Oza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
