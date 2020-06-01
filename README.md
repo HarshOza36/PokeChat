@@ -1,4 +1,6 @@
 # PokeChat
+![Project license](https://img.shields.io/apm/l/vim-mode?style=plastic)
+
 A Discord inspired chat application using Node.js and with Pokemon Theme
 
 # Setup
