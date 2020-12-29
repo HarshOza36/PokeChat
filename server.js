@@ -72,6 +72,7 @@ sio.on("connection", (socket) => {
   });
 });
 
-const PORT = 5013 || process.env.PORT;
+// const PORT = 5013 || process.env.PORT;
+const PORT = process.env.PORT || 5013
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
