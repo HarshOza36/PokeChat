@@ -187,3 +187,10 @@ a {
     display: none;
   }
 }
+
+.footer {
+  background-color: #777;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
