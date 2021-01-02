@@ -20,7 +20,7 @@ socket.on("roomUsers", ({ room, users }) => {
 
 //Catch the emit from server
 socket.on("msg", (message) => {
-  console.log(message);
+  // console.log(message);
   showMsg(message);
 
   //Automatic Scroll down
